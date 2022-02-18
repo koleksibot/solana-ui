@@ -1,0 +1,12 @@
+[programs.devnet]
+joketoearn = "HZy4kyk53Zsrzgv84fuRmuXFNar9VAyJmqwVZtK1iEVy"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/matanwrites/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
